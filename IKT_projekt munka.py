@@ -1,16 +1,12 @@
 import csv
 import random
+inventions=[]
+f=open("talalmanyok.txt","r",encoding="utf-8")
+for sor in f:
+    kislista=sor[:-1].split(",")
+    inventions.append(kislista)
+f.close()
 
-
-inventions = [
-    ['1769', 'gőzgép', 'James Watt', 'Acquisition'],
-    ['1774', 'üveggyant', 'Hannoveri Braun', 'Üveggyant felfedezése'],
-    ['1807', 'gőzhajó', 'Robert Fulton', 'gőzhajó felfedezése'],
-    ['1814', 'gőzmozdony', 'George Stephenson', 'gőzmozdony felfedezése'],
-    ['1837', 'telegráf', 'Samuel Morse', 'telegráf felfedezése'],
-    ['1903', 'repülőgép', 'Wright testvérek', 'repülögép felfedezése'],
-
-]
 
 def display_inventions(choice):
     if choice == 1:
