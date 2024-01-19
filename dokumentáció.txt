@@ -1,0 +1,51 @@
+A program a "talalmanyok.txt" nevű fájlból olvas be adatokat, amelyeket egy listában tárol. A fájl soronként tartalmazza az egyes találmányokat, és az adatokat vesszővel választja el egymástól.
+
+A program a következő funkciókat kínálja:
+
+1. Display all inventions: Ez a funkció kiírja az összes találmányt a konzolra, minden találmányt egy sorba. 
+
+2. Write all inventions to a file: Ez a funkció lehetővé teszi a találmányok kiírását egy megadott fájlba. A program megkéri a felhasználót, hogy adja meg a fájl nevét. A találmányokat CSV formátumban írja a fájlba.
+
+3. Display inventions within a specific time period: Ez a funkció lehetővé teszi a találmányok megjelenítését egy adott időszakban. A program megkéri a felhasználót, hogy adja meg a kezdő és végévét. Csak azokat a találmányokat jeleníti meg, amelyek az adott időszakban történtek.
+
+4. Take a quiz: Ez a funkció véletlenszerűen választ egy találmányt és megkérdezi a felhasználótól, hogy melyik évben történt az adott találmány felfedezése. A program kiírja a találmányt, majd a felhasználó meg kell adja a választ. A program ellenőrzi a választ és visszajelzést ad a helyes vagy helytelen válaszról.
+
+A programot az alábbi módon lehet futtatni: A konzolon megjelennek a különböző opciók, a felhasználó választásától függően a program végrehajtja a kapcsolódó funkciót.
+
+Példa futtatás:
+Welcome to the Inventions Program!
+1. Display all inventions
+2. Write all inventions to a file
+3. Display inventions within a specific time period
+4. Take a quiz
+Enter the number of your choice: 1
+(az összes találmány listában kerül megjelenítésre)
+
+Welcome to the Inventions Program!
+1. Display all inventions
+2. Write all inventions to a file
+3. Display inventions within a specific time period
+4. Take a quiz
+Enter the number of your choice: 2
+Enter the file name: inventions.csv
+(Egy "inventions.csv" nevű fájlba kerülnek kiírásra a találmányok)
+
+Welcome to the Inventions Program!
+1. Display all inventions
+2. Write all inventions to a file
+3. Display inventions within a specific time period
+4. Take a quiz
+Enter the number of your choice: 3
+Enter the start year: 1800
+Enter the end year: 1900
+(Az adott időszakban felfedezett találmányok listában kerülnek megjelenítésre)
+
+Welcome to the Inventions Program!
+1. Display all inventions
+2. Write all inventions to a file
+3. Display inventions within a specific time period
+4. Take a quiz
+Enter the number of your choice: 4
+(In question form kiírásra kerül egy találmány, majd a felhasználó beírja a választ)
+
+A program használata során a "talalmanyok.txt" fájlt az adott helyen kell elhelyezni, valamint először a `csv` modult kell importálni a megfelelő működéshez. 
